@@ -114,16 +114,9 @@
 .about-section {
   height: 120vh;
   background-color: #f2f3fa;
-  padding: 10% 5%;
+  padding: 20% 5%;
   position: relative;
 }
-
-/* .booking-section {
-  position: absolute;
-  top: -15%;
-  z-index: 5;
-  width: 90%;
-} */
 
 .booking-container {
   position: absolute;
@@ -354,7 +347,7 @@
 }
 
 .footer-dot-icon {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .footer-right h1 {
@@ -378,4 +371,235 @@
 .footer-line {
   height: 8vh;
   background-color: #8e2157;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    width: 60%;
+  }
+
+  .hero h1 {
+    font-size: 4vw;
+  }
+
+  .hero p {
+    font-size: 2vw;
+  }
+
+  .hero button {
+    padding: 2% 9% 2% 6%;
+  }
+
+  .arrow-icon {
+    padding: 7.5%;
+  }
+
+  .search-button {
+    padding: 2% 4% 2% 1%;
+    font-size: 2vw;
+    width: 25%;
+  }
+
+  .search-flight-icon {
+    right: 3%;
+    font-size: 4.5vw;
+  }
+
+  .about-section {
+    padding: 30% 5%;
+    height: 150vh;
+  }
+
+  .booking-container {
+    top: -14%;
+    z-index: 5;
+    width: 90%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-section h1 {
+    font-size: 8vh;
+  }
+
+  .about-section p {
+    width: 100%;
+    font-size: 2vw;
+  }
+
+  .about-step-container-div {
+    flex-direction: column;
+  }
+
+  .steps-container {
+    width: 100%;
+    margin-left: 20%;
+  }
+
+  .plane-icon {
+    left: -3%;
+  }
+
+  .steps p {
+    font-size: 2.5vw;
+  }
+
+  .about-list-icon {
+    font-size: 4vw;
+  }
+
+  .no_icon {
+    font-size: 7vw;
+  }
+
+  .about-video {
+    margin-top: 5%;
+  }
+
+  .footer-section {
+    height: 70vh;
+    flex-direction: column;
+    padding-top: 5%;
+  }
+
+  .footer-left {
+    width: 100%;
+  }
+
+  .footer-middle {
+    width: 100%;
+  }
+
+  .footer-right {
+    display: none;
+  }
+
+  .footer-icon {
+    font-size: 3vw;
+  }
+
+  .footer-left-icon p {
+    font-size: 2vw;
+  }
+
+  .footer-middle-links {
+    padding: 5%;
+  }
+
+  .footer-middle-links h1 {
+    font-size: 3.5vw;
+  }
+
+  .footer-middle-links p {
+    font-size: 2vw;
+  }
+
+  .footer-middle-contact h1 {
+    font-size: 3.5vw;
+  }
+
+  .footer-contact-div p {
+    font-size: 2vw;
+  }
+
+  .footer-dot-icon {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 6vw;
+  }
+
+  .hero p {
+    font-size: 4vw;
+  }
+
+  .hero button {
+    padding: 2% 9% 2% 6%;
+  }
+
+  .arrow-icon {
+    padding: 7.5%;
+  }
+
+  .search-button {
+    font-size: 3vw;
+    width: 37%;
+  }
+
+  .search-flight-icon {
+    right: 3%;
+    font-size: 5.5vw;
+  }
+
+  .about-section {
+    padding: 45% 5%;
+    height: 130vh;
+  }
+
+  .about-section h1 {
+    font-size: 9vh;
+  }
+
+  .about-section p {
+    width: 100%;
+    font-size: 3.5vw;
+  }
+
+  .plane-icon {
+    left: -3%;
+  }
+
+  .steps p {
+    font-size: 3.5vw;
+  }
+
+  .about-list-icon {
+    font-size: 4vw;
+  }
+
+  .no_icon {
+    font-size: 9vw;
+  }
+
+  .footer-section {
+    height: 70vh;
+  }
+
+  .footer-icon {
+    font-size: 5vw;
+  }
+
+  .footer-left-icon p {
+    font-size: 3.5vw;
+  }
+
+  .footer-middle-links h1 {
+    font-size: 5vw;
+  }
+
+  .footer-middle-links p {
+    font-size: 3.3vw;
+  }
+
+  .footer-middle-contact h1 {
+    font-size: 5vw;
+  }
+
+  .footer-contact-div p {
+    font-size: 3.3vw;
+  }
+
+  .footer-dot-icon {
+    font-size: 4vw;
+  }
 }
