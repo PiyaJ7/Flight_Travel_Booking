@@ -97,7 +97,7 @@
 
 /* About.js */
 .about-section {
-  height: 100vh;
+  height: 120vh;
   background-color: #f2f3fa;
   padding: 10% 5%;
 }
@@ -160,4 +160,88 @@
 
 .about-video video {
   border-radius: 30px;
+}
+
+/* footer.js */
+.footer-section {
+  height: 60vh;
+}
+
+.footer-left {
+  width: 30%;
+}
+
+.footer-middle {
+  width: 40%;
+}
+
+.footer-right {
+  width: 30%;
+}
+
+.footer-icon {
+  font-size: 1.5vw;
+}
+
+.footer-left-icon p {
+  padding: 5% 0;
+}
+
+.footer-middle-links {
+  padding: 5%;
+  height: 80%;
+}
+
+.footer-middle-links h1 {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.footer-middle-links p {
+  padding: 5% 0;
+}
+
+.footer-middle-contact {
+  height: 80%;
+  padding: 5%;
+}
+
+.footer-middle-contact h1 {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.footer-contact-div {
+  padding: 5% 0;
+}
+
+.footer-contact-div p {
+  margin-left: 5%;
+}
+
+.footer-dot-icon {
+  font-size: 2vw;
+}
+
+.footer-right h1 {
+  font-size: 2vw;
+  font-weight: bold;
+  padding-top: 15%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5%;
+}
+
+.footer-image img {
+  width: 10vw;
+  height: 15vh;
+  padding: 5%;
+}
+
+.footer-line {
+  height: 8vh;
+  background-color: #8e2157;
 }
