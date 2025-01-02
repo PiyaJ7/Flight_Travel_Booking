@@ -3,7 +3,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaCircle } from "react-icons/fa";
+import { IoCall } from "react-icons/io5";
+import { FaLocationDot } from "react-icons/fa6";
 import img1 from "./images/image 1.avif";
 import img2 from "./images/image 2.webp";
 import img3 from "./images/image 3.jpg";
@@ -42,13 +43,13 @@ export default function Footer() {
             <h1>Contact Us</h1>
             <div className="footer-contact-div flex items-center justify-start">
               <div className="footer-dot-icon">
-                <FaCircle />
+                <IoCall />
               </div>
               <p>(888) 231 4522 258</p>
             </div>
             <div className="footer-contact-div flex items-center justify-start">
               <div className="footer-dot-icon">
-                <FaCircle />
+                <FaLocationDot />
               </div>
               <p>3129 Doctors Drive, Los Angeles, California, USA</p>
             </div>
