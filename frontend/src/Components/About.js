@@ -5,10 +5,12 @@ import { RiNumber3 } from "react-icons/ri";
 import { RiNumber4 } from "react-icons/ri";
 import videoFile from "./videos/travel.mp4";
 import { FaPlaneUp } from "react-icons/fa6";
+import Booking from "./Booking";
 
 export default function About() {
   return (
     <div className="about-section">
+      <Booking />
       <h1 className="font-mono">How it Works</h1>
       <p>
         These are the simple procedures that will make your purchasing process
