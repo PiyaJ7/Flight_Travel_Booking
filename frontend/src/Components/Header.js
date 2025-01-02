@@ -2,11 +2,16 @@ import React from "react";
 import "./styles.css";
 import { IoSearch } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
+import { IoLogoStencil } from "react-icons/io5";
 
 export default function Header() {
   return (
     <div className="header-section flext  text-white">
-      <div className="header-logo flex items-center justify-center">LOGO</div>
+      <div className="header-logo flex items-center justify-center">
+        <div className="logo-icon">
+          <IoLogoStencil />
+        </div>
+      </div>
       <div className="header-navigation-bar flex	w-2/5">
         <div className="header-nav">Home</div>
         <div className="header-nav">About Us</div>
